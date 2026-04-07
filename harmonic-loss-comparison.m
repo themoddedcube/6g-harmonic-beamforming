@@ -11,7 +11,7 @@ lambda = c/f_RF; % Wavelength
 d = lambda/2; % Element spacing (half-wavelength)
 
 % Simulation parameters
-fs = 2000*f_TM; % Sampling frequency
+fs = 20*f_TM; % Sampling frequency
 t = 0:1/fs:10*T_TM; % Time vector
 theta_scan = -90:0.5:90; % Angle range for beam patterns
 
